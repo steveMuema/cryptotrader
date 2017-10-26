@@ -26,6 +26,7 @@ MERGED from [com.facebook.react:react-native:0.48.4] /home/hitch_sex/Documents/a
 		ADDED from /home/hitch_sex/Documents/andela/cryptotrader/android/app/src/main/AndroidManifest.xml:7:22-75
 uses-sdk
 ADDED from /home/hitch_sex/Documents/andela/cryptotrader/android/app/src/main/AndroidManifest.xml:9:5-11:41
+MERGED from [cryptotrader:react-native-vector-icons:unspecified] /home/hitch_sex/Documents/andela/cryptotrader/android/app/build/intermediates/exploded-aar/cryptotrader/react-native-vector-icons/unspecified/AndroidManifest.xml:7:5-9:41
 MERGED from [com.facebook.react:react-native:0.48.4] /home/hitch_sex/Documents/andela/cryptotrader/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.48.4/AndroidManifest.xml:7:5-9:41
 MERGED from [com.android.support:appcompat-v7:23.0.1] /home/hitch_sex/Documents/andela/cryptotrader/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:support-v4:23.0.1] /home/hitch_sex/Documents/andela/cryptotrader/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/AndroidManifest.xml:20:5-43
