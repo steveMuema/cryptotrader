@@ -1,4 +1,6 @@
 import { AppRegistry } from 'react-native';
-import App from './App';
-import Exchange from './android/app/src/components/ExchangeScreen'
-AppRegistry.registerComponent('cryptotrader', () => Exchange);
+import App from './android/src/App';
+require('react-native-browser-polyfill');
+// import configureStore from './android/src/store/configureStore';
+global.self=global;
+AppRegistry.registerComponent('cryptotrader', () => App);
