@@ -1,4 +1,4 @@
-#Wed Oct 18 22:11:19 EAT 2017
+#Sat Oct 21 22:47:40 EAT 2017
 base.0=/home/hitch_sex/Documents/andela/cryptotrader/android/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main
 renamed.0=classes.dex
 file.0=/home/hitch_sex/Documents/andela/cryptotrader/android/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex

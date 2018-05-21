@@ -174,6 +174,15 @@
     </item>
     <item
         is-multidex="false"
+        jar="/home/hitch_sex/Documents/andela/cryptotrader/android/app/build/intermediates/exploded-aar/cryptotrader/react-native-vector-icons/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d07c26cb8206a77298d1f550dde0376ecbd3023e">
+        <dex dex="/home/hitch_sex/Documents/andela/cryptotrader/android/app/build/intermediates/pre-dexed/debug/cryptotrader-react-native-vector-icons-unspecified_35a744350c65b7942a81232b86ee8c39f325f057.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/home/hitch_sex/android-studio/android-sdk-linux/extras/android/m2repository/com/android/support/support-annotations/23.0.1/support-annotations-23.0.1.jar"
         jumboMode="false"
         optimize="true"
