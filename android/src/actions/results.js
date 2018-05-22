@@ -1,4 +1,4 @@
-
+// import {FETCHING_EXCHANGE_RATES} from '../../../constants';
 
 export function resultsIsLoading(bool){
     return{
@@ -7,21 +7,21 @@ export function resultsIsLoading(bool){
     }
 }
 
-export function resultsFetchDataSuccess(results){
-        return{
-            type:'RESULTS_FETCH_DATA_SUCCESS',
-            results
-        }
-
-}
-
-
 export function resultsHasErrored(bool){
     return{
         type: "RESULTS_HAS_ERRORED",
         hasErrored: bool
     }
 }
+
+export function resultsFetchDataSuccess(data){
+        return{
+            type:'RESULTS_FETCH_DATA_SUCCESS',
+            results: data
+        }
+
+}
+
 
 
 
@@ -31,10 +31,10 @@ export function resultsFetchData(cryptocurrency, wcurrency){
     return (dispatch) => {
         dispatch(resultsIsLoading(true)); 
             cc.price(cryptocurrency, wcurrency)
-            .then((results) => {
+            .then((data) => {
                 dispatch(resultsIsLoading(false));
-                dispatch(resultsFetchDataSuccess(results));                
-                console.log(results);
+                dispatch(resultsFetchDataSuccess(data));                
+                console.log(data);
             })
             .catch(()=> dispatch(resultsHasErrored(true)));
     };

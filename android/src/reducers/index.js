@@ -4,8 +4,5 @@ import savedResults from './savedResults';
 
 let rootReducer=combineReducers({
     results,
-    resultsHasErrored,
-    resultsIsLoading,
-    savedResults
 })
 export default rootReducer;
